@@ -1,0 +1,37 @@
+{
+  "name": "ts-mxgraph",
+  "version": "1.0.0",
+  "description": "A Tiny Typescript Wrapper for mxgraph",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@types/node": "12.12.7",
+    "copy-webpack-plugin": "5.0.5",
+    "exports-loader": "0.7.0",
+    "mxgraph": "4.1.0",
+    "ts-loader": "6.2.1",
+    "tslint": "5.20.1",
+    "tslint-loader": "3.5.4",
+    "typescript": "3.7.2",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10"
+  },
+  "scripts": {
+    "prepare": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabpeter/ts-mxgraph.git"
+  },
+  "keywords": [
+    "typescript",
+    "mxgraph"
+  ],
+  "author": "rabpeter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabpeter/ts-mxgraph/issues"
+  },
+  "homepage": "https://github.com/rabpeter/ts-mxgraph#readme"
+}
