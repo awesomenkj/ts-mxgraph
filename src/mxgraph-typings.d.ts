@@ -20464,7 +20464,7 @@ export module mxgraph {
      * <mxCellMarker.getCell>.
      */
     export class mxCellTracker extends mxCellMarker {
-        constructor(graph: any, color: any, funct: any);
+        constructor(graph: mxGraph, color?: string, funct?: any);
         /**
          * Ignores the event. The event is not consumed.
          */
