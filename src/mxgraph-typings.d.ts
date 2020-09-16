@@ -3840,6 +3840,7 @@ export module mxgraph {
         FONT_ITALIC: number;
         FONT_UNDERLINE: number;
         SHAPE_RECTANGLE: string;
+        SHAPE_ROUNDED: string;
         SHAPE_ELLIPSE: string;
         SHAPE_DOUBLE_ELLIPSE: string;
         SHAPE_RHOMBUS: string;
