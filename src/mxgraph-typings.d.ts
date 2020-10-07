@@ -1242,78 +1242,78 @@ export module mxgraph {
          * Specifies the spacing to be added to the top spacing. Default is 0. Use the
          * value 5 here to get the same label positions as in mxGraph 1.x.
          */
-        baseSpacingTop: number;
+        baseSpacingTop?: number;
         /**
          * Specifies the spacing to be added to the bottom spacing. Default is 0. Use the
          * value 1 here to get the same label positions as in mxGraph 1.x.
          */
-        baseSpacingBottom: number;
+        baseSpacingBottom?: number;
         /**
          * Specifies the spacing to be added to the left spacing. Default is 0.
          */
-        baseSpacingLeft: number;
+        baseSpacingLeft?: number;
         /**
          * Specifies the spacing to be added to the right spacing. Default is 0.
          */
-        baseSpacingRight: number;
+        baseSpacingRight?: number;
         /**
          * Specifies if linefeeds in HTML labels should be replaced with BR tags.
          * Default is true.
          */
-        replaceLinefeeds: boolean;
+        replaceLinefeeds?: boolean;
         /**
          * Rotation for vertical text. Default is -90 (bottom to top).
          */
-        verticalTextRotation: number;
+        verticalTextRotation?: number;
         /**
          * Specifies if the string size should be measured in <updateBoundingBox> if
          * the label is clipped and the label position is center and middle. If this is
          * true, then the bounding box will be set to <bounds>. Default is true.
          * <ignoreStringSize> has precedence over this switch.
          */
-        ignoreClippedStringSize: boolean;
+        ignoreClippedStringSize?: boolean;
         /**
          * Specifies if the actual string size should be measured. If disabled the
          * boundingBox will not ignore the actual size of the string, otherwise
          * <bounds> will be used instead. Default is false.
          */
-        ignoreStringSize: boolean;
+        ignoreStringSize?: boolean;
         /**
          * Specifies the padding to be added to the text width for the bounding box.
          * This is needed to make sure no clipping is applied to borders. Default is 4
          * for IE 8 standards mode and 3 for all others.
          */
-        textWidthPadding: number;
+        textWidthPadding?: number;
         /**
          * Contains the last rendered text value. Used for caching.
          */
-        lastValue: any;
+        lastValue?: any;
         /**
          * Specifies if caching for HTML labels should be enabled. Default is true.
          */
-        cacheEnabled: boolean;
+        cacheEnabled?: boolean;
         /**
          * Implicitly defined variables
          */
-        textDirection: any;
-        labelPadding: any;
-        overflow: any;
-        clipped: any;
-        wrap: any;
-        border: any;
-        background: any;
-        horizontal: any;
-        spacingLeft: any;
-        spacingBottom: any;
-        spacingRight: any;
-        spacingTop: any;
-        fontStyle: any;
-        size: any;
-        family: any;
-        valign: any;
-        align: any;
-        color: any;
-        value: any;
+        textDirection?: any;
+        labelPadding?: any;
+        overflow?: any;
+        clipped?: any;
+        wrap?: any;
+        border?: any;
+        background?: any;
+        horizontal?: any;
+        spacingLeft?: any;
+        spacingBottom?: any;
+        spacingRight?: any;
+        spacingTop?: any;
+        fontStyle?: any;
+        size?: any;
+        family?: any;
+        valign?: any;
+        align?: any;
+        color?: any;
+        value?: any;
         /**
          * Constructs a new text shape.
          *
@@ -1358,25 +1358,25 @@ export module mxgraph {
         constructor(
             value: any,
             bounds: any,
-            align: any,
-            valign: any,
-            color: any,
-            family: any,
-            size: any,
-            fontStyle: any,
-            spacing: any,
-            spacingTop: any,
-            spacingRight: any,
-            spacingBottom: any,
-            spacingLeft: any,
-            horizontal: any,
-            background: any,
-            border: any,
-            wrap: any,
-            clipped: any,
-            overflow: any,
-            labelPadding: any,
-            textDirection: any,
+            align?: any,
+            valign?: any,
+            color?: any,
+            family?: any,
+            size?: any,
+            fontStyle?: any,
+            spacing?: any,
+            spacingTop?: any,
+            spacingRight?: any,
+            spacingBottom?: any,
+            spacingLeft?: any,
+            horizontal?: any,
+            background?: any,
+            border?: any,
+            wrap?: any,
+            clipped?: any,
+            overflow?: any,
+            labelPadding?: any,
+            textDirection?: any,
         );
         /**
          * Text shapes do not contain VML markup and do not need to be parsed. This
