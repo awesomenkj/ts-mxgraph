@@ -23,16 +23,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rabpeter/ts-mxgraph.git"
+    "url": "git+https://github.com/awesomenkj/ts-mxgraph.git"
   },
   "keywords": [
     "typescript",
     "mxgraph"
   ],
-  "author": "rabpeter",
+  "author": "awesomenkj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rabpeter/ts-mxgraph/issues"
+    "url": "https://github.com/awesomenkj/ts-mxgraph/issues"
   },
-  "homepage": "https://github.com/rabpeter/ts-mxgraph#readme"
+  "homepage": "https://github.com/awesomenkj/ts-mxgraph#readme"
 }
